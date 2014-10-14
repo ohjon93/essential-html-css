@@ -23,8 +23,9 @@ header {
 }
 
 footer {
-	padding: 1em;
+	padding: 1em 1em 1em 0em;
 	background-color: #FC892F;
+	border-top-style: solid;
 	border-top-width: 5px;
 	border-top-color: #EC791F;
 	font-size: 80%;
@@ -35,7 +36,7 @@ footer p:first-child{
 	font-style: italic;
 }
 
-dt{
+dt {
 	color:black;
 	font-weight: bold;
 }
@@ -56,18 +57,18 @@ a:hover {
 	color: #0000EE;
 }
 
-h2 {
+h2, h3 {
 	font-family: "Raleway", "Helvetica Neue", "sans-serif";
 	color: #505050;
-	font-size: 150%;
 	font-weight: 300;
 }
 
+h2 {
+	font-size: 150%;
+}
+
 h3 {
-	font-family: "Raleway", "Helvetica Neue", "sans-serif";
-	color: #505050;
 	font-size: 125%;
-	font-weight: 300;
 }
 
 .pageheader {
@@ -92,7 +93,7 @@ h3 {
 	margin: 0;
 }
 
-.info {
+.info, .aboutus {
 	padding: 1em;
 }
 
@@ -100,18 +101,15 @@ h3 {
 	margin-top: 0;
 }
 
+.info h2 {
+	margin: 0;
+}
+
 .menu {
 	padding: 1em;
 	background-color: rgba(207, 205, 144, 0.5);
 }
 
-.menu h2:first-child{
-	margin: 0;
-}
-.aboutus {
-	padding: 1em;
-}
-
-.aboutus h2:first-child {
+.menu h2:first-child, .aboutus h2:first-child {
 	margin: 0;
 }
